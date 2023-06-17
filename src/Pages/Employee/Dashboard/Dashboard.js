@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { TokenUpdate } from "../../Utility/TokenUpdate";
+import { TokenUpdate } from "../../../Utility/TokenUpdate";
 
 const Dashboard = () => {
   useEffect(() => {
