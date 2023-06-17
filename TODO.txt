@@ -1,0 +1,44 @@
+1. Login API - Done 7 jan
+2. Get New Token - Done 7 Jan
+3. Check the Token - Done 7 Jan
+4. Forgot Password reset Token - Done 7 Jan
+4.1. Password Reset Token Verification - Done 7 Jan
+5. Change Password through Token - Done 7 Jan
+6. Change Password through Old Password - Done 7 Jan
+
+
+9th Jan
+
+1. Scope Management
+    a. Create Scope
+    b. Edit Scope
+    c. Delete Scope
+    d. View Scope
+2. Permission Management
+    a. Create Permission
+    b. Edit Permission
+    c. Delete Permission
+    d. View Permission
+3. Role Management
+    a. Create Role
+    b. Edit Role
+    c. Delete Role
+    d. View Role
+4. User Management
+    a. Create User
+    b. Edit User
+    c. Delete User
+    d. View User
+5. Team Management (Hierarchy Management)
+    a. Create Team
+        i. Add Single Person
+        ii. Add Multiple Person
+    b. Edit Team
+        i. Shift Single Member
+        ii. Shift Team
+        iii. Remove Team Member
+    c. Delete Team
+        i. Single Member
+        ii. Team
+        iii. Merge Teams
+    d. View Team
