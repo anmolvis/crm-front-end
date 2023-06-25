@@ -1,10 +1,8 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "regular";
+  /* color: #2a4b36; */
+  /* background-color: #FFFFFA; */
 }
 
 code {
@@ -13,11 +11,19 @@ code {
 }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: "regular";
   src: url("../src/Fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
-  font-family: "Open Sans Medium";
+  font-family: "medium";
   src: url("../src/Fonts/OpenSans-Medium.ttf");
+}
+@font-face {
+  font-family: "semiBold";
+  src: url("../src/Fonts/OpenSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: "bold";
+  src: url("../src/Fonts/OpenSans-Bold.ttf");
 }
