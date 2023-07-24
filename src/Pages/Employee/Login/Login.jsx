@@ -32,6 +32,9 @@ const Login = () => {
           <GoogleOAuthProvider clientId="654026480705-rve4pq96j1o996ejs6umnvbkjclhsl58.apps.googleusercontent.com">
             <GoogleLogin
               onSuccess={(cred) => {
+                console.log('====================================');
+                console.log(cred);
+                console.log('====================================');
                 //  TODO: Handle this
               }}
               shape="square"

@@ -5,9 +5,12 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.13.5",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.6",
+    "@mui/x-date-pickers": "^6.9.1",
     "@react-oauth/google": "^0.11.0",
     "@reduxjs/toolkit": "^1.9.5",
+    "dayjs": "^1.11.9",
     "gh-pages": "^5.0.0",
     "node-sass": "^7.0.3",
     "react": "^18.2.0",

@@ -1,0 +1,13 @@
+@import "../../../Style/global";
+
+.main-body {
+  margin-left: 230px;
+  background-color: $background-color;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  padding: 16px;
+  top: 0;
+}

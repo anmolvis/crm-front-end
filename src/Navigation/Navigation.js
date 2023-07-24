@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // Components Imports
 import AuthenticationCheck from "../Utility/AuthenticationCheck";
 import Login from "../Pages/Employee/Login/Login";
-import Dashboard from "../Pages/Employee/Dashboard/Dashboard";
+import { routes } from "./navigation.constant";
 
 const Navigation = () => {
   const router = createBrowserRouter([
@@ -16,10 +16,10 @@ const Navigation = () => {
       path: "/login",
       element: <Login />,
     },
-    {
-      path: "/dashboard",
-      element: <Dashboard />,
-    },
+    ...routes.map((item) => ({
+      path: item.path,
+      element: item.element,
+    })),
   ]);
   return <RouterProvider router={router} />;
 };
